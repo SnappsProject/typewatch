@@ -34,7 +34,7 @@
 			|| (override && elTxt.length >= options.captureLength)
 			|| (options.fireOnEmpty && elTxt.length == 0 && timer.text)) {
 				timer.text = elTxt.toUpperCase();
-				timer.cb(elTxt);
+				timer.cb(timer.el);
 			}
 		}
 		
